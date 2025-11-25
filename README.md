@@ -18,12 +18,12 @@ pip install langchain openai chromadb python-dotenv
 
 ## Usage
 
-1. Set your OpenAI API key in .env:
+1. Set your OpenAI API key in .env file:
 
 OPENAI_API_KEY=your_openai_api_key_here
 
 
-2. Update the PDF_PATH in main.py if using a different PDF.
+2. Update the PDF_PATH in Langchain_pdf_information_extraction.py if using a different PDF.
 
 Run the pipeline:
 
@@ -37,4 +37,5 @@ python Langchain_pdf_information_extraction.py
 --------------------------------------------------------------------------------
 Document 1:
 The characteristics of the model developed by Marschall include...
+
 
